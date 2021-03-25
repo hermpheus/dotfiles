@@ -23,3 +23,9 @@
 
     # Use `visual-studio-code`
     editor = code --wait
+
+# URL Shorthand
+
+[url "git@github.com:"]
+
+	insteadOf = "gh:"
