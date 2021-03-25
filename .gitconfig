@@ -1,4 +1,25 @@
 [include]
+    # Committer name & email
     path = ~/.gitconfig.local
+
 [init]
 	defaultBranch = main
+
+[alias]
+
+    # Shorthand
+    co = checkout
+    st = status
+    cp = cherry-pick
+
+    # Common flags
+    dc = diff --cached -w
+    d = diff -w
+    oops = commit -a --amend
+
+[core]
+    # Use custom `.gitignore`
+    excludesfile = ~/.gitignore
+
+    # Use `visual-studio-code`
+    editor = code --wait
