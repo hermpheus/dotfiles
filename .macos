@@ -1,0 +1,10 @@
+# Fix choppy audio on Bluetooth headphones
+# https://tech.setepontos.com/2019/01/08/solving-bluetooth-audio-issues-in-macos/
+# https://smarterco.de/mac-os-choppy-audio-over-bluetooth-with-bose-quietcomfort-35/
+defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Max (editable)" 80
+defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" 80
+defaults write com.apple.BluetoothAudioAgent "Apple Initial Bitpool (editable)" 80
+defaults write com.apple.BluetoothAudioAgent "Apple Initial Bitpool Min (editable)" 80
+defaults write com.apple.BluetoothAudioAgent "Negotiated Bitpool" 80
+defaults write com.apple.BluetoothAudioAgent "Negotiated Bitpool Max" 80
+defaults write com.apple.BluetoothAudioAgent "Negotiated Bitpool Min" 80
