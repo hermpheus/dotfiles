@@ -18,5 +18,6 @@ Run once scripts to install software & set default options
 
 ## Thanks
 
-* [Mathias Bynens](https://github.com/mathiasbynens/dotfiles)
-* [Zach Holman](https://github.com/holman/dotfiles)
+* https://github.com/mathiasbynens/dotfiles
+* https://github.com/holman/dotfiles
+* https://github.com/jlengstorf/dotfiles
