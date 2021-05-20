@@ -7,13 +7,13 @@ Create .gitconfig.local
     name =
     email =
 ```
-Add dotfiles to home directory
+Add or refresh dotfiles to home directory
 ```bash
 ./dot.sh
 ```
-Run .macos separately to set default options
+Run once scripts to install software & set default options
 ```bash
-./.macos
+./once.sh
 ```
 
 ## Thanks
