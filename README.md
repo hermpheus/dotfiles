@@ -7,11 +7,11 @@ Create .gitconfig.local
     name =
     email =
 ```
-Add or refresh dotfiles to home directory
+Add/refresh dotfiles
 ```bash
 ./dot.sh
 ```
-Run once scripts to install software & set default options
+Install software & set default options
 ```bash
 ./once.sh
 ```
