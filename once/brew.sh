@@ -3,23 +3,28 @@
 # Install homebrew & xcode tools
 # /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-# Make sure we’re using the latest Homebrew.
+# Fetch latest formulae
 brew update
 
-# Upgrade any already-installed formulae.
+# Upgrade anything already installed
 brew upgrade
 
-# Install more recent versions of some macOS tools.
+# Overwrite xcode git
 brew install git
 
-# Install essential apps
+# Code editor/IDE
 brew install --cask visual-studio-code
+
+# Password manager
 brew install --cask lastpass
+
+# Web browsers
 brew install --cask google-chrome
+brew install --cask firefox
 
-# Install less essential apps
+# Chat apps
 brew install --cask discord
-brew install --cask spectacle # no longer maintained
+brew install --cask slack
 
-# Remove outdated versions from the cellar.
+# Removes outdated versions
 brew cleanup
