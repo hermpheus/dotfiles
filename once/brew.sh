@@ -26,5 +26,8 @@ brew install --cask firefox
 brew install --cask discord
 brew install --cask slack
 
+# Application window manager
+brew install --cask rectangle
+
 # Removes outdated versions
 brew cleanup
