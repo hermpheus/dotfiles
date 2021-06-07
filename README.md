@@ -1,7 +1,7 @@
 # herm's dotfiles
 
 ## Installation
-Create .gitconfig.local
+Create a `dots/.gitconfig.local` with contents
 ```
 [user]
     name =
