@@ -13,6 +13,7 @@
     cp = cherry-pick
 
     # Common flags
+    ca = commit -a
     dc = diff --cached -w
     d = diff -w
     oops = commit -a --amend
