@@ -2,9 +2,6 @@
 
 # See https://mths.be/macos
 
-# Disable the sound effects on boot
-sudo nvram SystemAudioVolume=" "
-
 # Fix choppy audio on Bluetooth headphones
 # https://tech.setepontos.com/2019/01/08/solving-bluetooth-audio-issues-in-macos/
 # https://smarterco.de/mac-os-choppy-audio-over-bluetooth-with-bose-quietcomfort-35/
