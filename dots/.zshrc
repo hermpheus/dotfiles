@@ -8,6 +8,7 @@ setopt HIST_REDUCE_BLANKS
 
 # aliases
 alias lsla='ls -la'
+alias update='brew update && brew upgrade && npm update --global'
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
