@@ -1,4 +1,5 @@
-# herm's dotfiles
+# Herm's dotfiles
+My simple dotfiles for macOS. Includes customized starship prompt, aliases, NVM, and initial package install scripts.
 
 ## Installation
 Create a `dots/.gitconfig.local` with contents
