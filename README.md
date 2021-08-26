@@ -21,3 +21,4 @@ Install software & set default options
 * https://github.com/mathiasbynens/dotfiles
 * https://github.com/holman/dotfiles
 * https://github.com/jlengstorf/dotfiles
+* https://github.com/pawelgrzybek/dotfiles
